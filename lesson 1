@@ -1,0 +1,75 @@
+# PHP Datatypes 
+=============
+- int 
+-string
+-float
+-boolean
+- array
+-float
+-object
+-NULL
+
+# how do you declare a variable 
+$variable = "this is a string "
+$varaible2 = 23
+
+# PHP Array 
+
+$myarray = array('one','two','three')
+$myarray[0];
+
+$myarray2 = array(key=>value, key=>value);
+array with key value 
+$example_array = array("city"=>"vancouver","day"=>"Thursday");
+
+Multi Dimentional Array 
+$colors = array(
+                array("red","blue","yellow"),
+                array("black","white"),
+                )
+  Comments in PHP 
+  
+  // Single line 
+  # for single line too 
+  /*
+  Multi Line 
+  */
+  
+  Conditionals
+  if condition 
+  if(condition){
+  statements 
+  
+  }
+  else if 
+  
+  if(condition){
+  statements 
+  
+  }elseif(condition) { statement}
+  else{
+  statement
+  }
+  
+  Ternary Operator 
+  condition? statement :statement;
+  example 
+  $name = "vanarts"
+  $name?"thisis true":"this is false";
+  
+  Traditional For Loop 
+  for( initialise ;condition, update){
+  statements 
+  }
+  
+  foreach(array as value ){
+  statements
+  }
+  
+  foreach(array as key=>value ){
+  statements
+  }
+  
+                
+                
+
